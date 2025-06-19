@@ -1,0 +1,32 @@
+div {
+    background-color: #fdf14c;
+
+}
+
+h1 {
+    color: #f61616;
+}
+
+@media screen and (max-width :500px) {
+    div {
+        background-color: #7d7d7d;
+
+    }
+
+    h1 {
+        color: #f616e3;
+    }
+
+}
+
+@media screen and (max-width :800px) and (min-width: 200px) {
+    div {
+        background-color: #6ffd4c;
+    }
+
+    h1 {
+        color: #1616f6;
+    }
+
+
+}
